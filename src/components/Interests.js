@@ -1,8 +1,8 @@
 function Interests() {
     return (
-        <div className="interests">
-            <h3>Interests</h3>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iusto, officia? Rerum architecto fugiat cum natus molestias iste non laborum, sint totam saepe a, expedita accusantium suscipit quas perspiciatis tenetur assumenda!</p>
+        <div className="section">
+            <h3 className="section-title">Interests</h3>
+            <p className="section-text">Within academics, I have a love of mathematical research and related programming. To expand my programming skills, I branched into software and web development. Outside of the office, I spend my time traveling with my wife in our self-built camper van. Popular destinations are climbing boulders, mountain biking/unicycling trails, mountain peaks, and whitewater rivers.</p>
         </div>
     )
 }

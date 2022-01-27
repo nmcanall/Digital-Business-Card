@@ -19,6 +19,7 @@ html {
 
 .info {
   text-align: center;
+  padding-bottom: 20px;
 }
 
 .profile-pic {
@@ -36,7 +37,7 @@ html {
 }
 
 .what-i-do {
-  padding-top: 25px;
+  padding-top: 10px;
   font-size: 30px;
   color: #F3BF99;
   font-weight: normal;
@@ -45,7 +46,7 @@ html {
 .contact-blocks {
   display: flex;
   justify-content: space-evenly;
-  padding-top: 40px;
+  padding-top: 25px;
 }
 
 .email {
@@ -65,6 +66,20 @@ html {
 }
 
 /* ----- About setup ----- */
+
+.section {
+  padding: 15px 45px;
+}
+
+.section-title {
+  padding-bottom: 15px;
+  font-size: 30px;
+}
+
+.section-text {
+  font-size: 12px;
+  text-align: justify;
+}
 
 /* ----- Interests setup ----- */
 
