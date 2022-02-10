@@ -64,7 +64,7 @@ body {
   padding: 7px 29px;
   border-radius: 15px;
   color: black;
-  background-color: white;
+  background-color: #ffffffaf;
   cursor: pointer;
   border: none;
 }
@@ -105,18 +105,19 @@ body {
   display: flex;
   justify-content: center;
   background: #000000;
-  box-shadow: 0 -4px 15px #000000;
+  box-shadow: 0 -3px 5px #000000;
   padding-bottom: 5px;
-  margin-top: 6px;
+  margin-top: 10px;
 }
 
 .fa {
   padding: 4px;
-  font-size: 22px;
+  font-size: 26px;
   width: 30px;
   text-align: center;
   text-decoration: none;
   margin: 5px 20px;
+  border-radius: 6px;
 }
 
 .fa-facebook {
@@ -125,8 +126,12 @@ body {
 }
 
 .fa-instagram {
-  background: #125688;
-  color: white;
+  background: #f09433; 
+  background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
+  background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+  background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
+  font-weight: bold;
 }
 
 .fa-github {
@@ -141,17 +146,34 @@ body {
   }
 }
 
-/* Responsive designs for wider mobile screen */
+/* Responsive designs for wider mobile screen
 @media screen and (min-width: 440px) {
   .footer {
     position: relative;
   }
-}
+} */
 
 /* Responsive designs for wider mobile screen */
 @media screen and (min-width: 570px) {
   .section-text {
     font-size: 13px;
+  }
+
+  .my-name {
+    padding-top: 0px;
+    font-size: 30px;
+  }
+
+  .what-i-do {
+    padding-top: 0px;
+  }
+
+  .contact-blocks {
+    padding-top: 10px;
+  }
+
+  .section {
+    padding-block: 1px;
   }
 }
 
@@ -198,5 +220,12 @@ body {
 
   .footer {
     position: absolute;
+  }
+}
+
+/* Responsive designs for landscape mobile screen */
+@media screen and (max-height: 644px) {
+  .footer {
+    position: relative;
   }
 }
